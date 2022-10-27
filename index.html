@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <!-- SECTION navbar -->
+    <section class="row">
+      <div class="col-12 bg-primary text-center text-light">
+        <h1 class="league-spartan m-0 py-2">
+          Cat Hats
+        </h1>
+      </div>
+    </section>
+  </header>
+
+  <main class="container-fluid">
+    <!-- SECTION hero image -->
+    <section class="row bg-hero justify-content-end align-items-center">
+      <div class="col-3">
+        <p class="bg-light rounded card p-3 me-5 d-none d-md-block">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus molestias cupiditate a sint
+          officiis totam corporis iusto quae fugit!
+        </p>
+      </div>
+    </section>
+    <!-- SECTION shop bar and buttons -->
+    <section class="row gap-2 justify-content-center sticky-top">
+      <div class="col-12 text-center pb-4 bg-salmon">
+        <h2 class="fs-4 text-light">Shop for</h2>
+      </div>
+      <button class="col-10 col-md-1 order-2 order-md-1 text-center move-up btn btn-danger px-4">
+        <a href="#party">Party</a>
+      </button>
+      <button class="col-10 col-md-1 order-2 order-md-1 text-center move-up btn btn-danger px-4">Cowboy</button>
+      <button class="col-10 col-md-1 order-2 order-md-1 text-center move-up btn btn-danger px-4">Formal</button>
+
+    </section>
+    <!-- SECTION party -->
+    <section class="row gy-5">
+      <!-- SECTION header -->
+      <div class="col-12 d-flex justify-content-center text-center">
+        <h3 class="text-danger border-bottom border-danger" id="party">
+          Party
+        </h3>
+      </div>
+      <!-- SECTION cards -->
+      <div class="col-1 d-none d-md-block">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-1 d-none d-md-block">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+    </section>
+    <!-- SECTION cowboy -->
+    <section class="row mt-3 gy-5">
+      <!-- SECTION header -->
+      <div class="col-12 d-flex justify-content-center text-center">
+        <h3 class="text-danger border-bottom border-danger">
+          Cowboy
+        </h3>
+      </div>
+      <!-- SECTION cards -->
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+    </section>
+    <!-- SECTION formal -->
+    <section class="row mt-3 gy-5">
+      <!-- SECTION header -->
+      <div class="col-12 d-flex justify-content-center text-center">
+        <h3 class="text-danger border-bottom border-danger">
+          Formal
+        </h3>
+      </div>
+      <!-- SECTION cards -->
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="shadow">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d13a/90e0/e8fb6f33200429c7eb56289a5b5713d3?Expires=1667779200&Signature=LoSxJ2z9DjmPyijoDhHaKJuTA7tmXV~wIcslBC1PldkZqB10Gm0O~by~N3hHRogtHw3HWze5VmfG7mrr2kCjGzmMBSUXKiLprFgfuMC3i~EiNLn4HKnwJu9kTxPBj~JeXRvVIXCzRDFAM7za2qKm-b3Vt0GmHWYVlhYDh9m7BQ7Pl1GCVxx6Pn7YFgxhYkf397kRkeNTINnyKMpTlhnBeTO88ZCmjeYG7k~7~Z72qtN35Zc0L6du4jy8NOZc7Xwac0b6HxUeQGtubNcJIyDztzKZhh0sD6z7LjghV2-Bg6RR4TItlfBruh8gFLrqIkPMgyZWTUMCZV9oO4hvKRMt2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="this cat is ready to party" class="img-fluid">
+          <div class="d-flex bg-espresso justify-content-between p-3 rounded-bottom">
+            <div>Party Hat</div>
+            <button class="btn btn-primary move-down">
+              <i class="mdi mdi-cart-arrow-down fs-3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-1">
+        <!-- NOTE empty column for spacing -->
+      </div>
+    </section>
+  </main>
+  <!-- NOTE sticky bottom example -->
+  <!-- <footer class="sticky-bottom">
+    test
+  </footer> -->
+</body>
+
+</html>

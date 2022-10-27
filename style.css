@@ -1,0 +1,33 @@
+.league-spartan{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.bg-hero{
+  background-image: url('https://images.unsplash.com/photo-1566927467984-6332be7377d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80');
+  min-height: 33vh;
+  background-position: center;
+}
+
+.bg-salmon{
+  background-color: #F6886A;
+}
+
+.bg-espresso{
+  background-color: #ECC09B;
+}
+
+.move-up{
+  transform: translateY(-2.7vh);
+}
+
+.move-down{
+  transform: translateY(3vh);
+}
+
+h3{
+  min-width: 30vw;
+}
+
+a{
+  text-decoration: none;
+}
